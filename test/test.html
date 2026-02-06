@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Browser Test</title>
+    <script src="./browser.ts"></script>
+  </head>
+
+  <body>
+    <form id="test-form">
+      <input type="text" name="string::string" placeholder="string" />
+      <input type="text" name="array::array" placeholder="array" />
+      <input type="text" name="array::array" placeholder="array merge" />
+      <input type="text" name="obj.foo" placeholder="obj.foo" />
+      <input type="text" name="obj.bar" placeholder="obj.bar" />
+      <input type="text" name="obj.nested.baz" placeholder="obj.nested.baz" />
+      <input type="checkbox" name="boolean::bool" />
+      <input type="text" name="json::json" placeholder="json" />
+      <input type="date" name="date::date" placeholder="date" />
+      <div>
+        <input name="list::key::list::0" placeholder="list-key-0" />
+        <input name="list::value::list::0" placeholder="list-value-0" />
+      </div>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
