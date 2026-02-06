@@ -1,4 +1,4 @@
-# `typed-formdata`
+# `formdata-parser`
 
 Parse `FormData` / `URLSearchParams` into a typed JavaScript object using inline field prefixes like:
 
@@ -16,13 +16,13 @@ Parse `FormData` / `URLSearchParams` into a typed JavaScript object using inline
 ## Installation
 
 ```bash
-npm install typed-formdata
+npm install @shpaw415/formdata-parser
 ```
 
 or
 
 ```bash
-bun add typed-formdata
+bun add @shpaw415/formdata-parser
 ```
 
 ---

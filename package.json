@@ -1,6 +1,9 @@
 {
-  "name": "formdata-parser",
+  "name": "@shpaw415/formdata-parser",
   "module": "index.ts",
+  "version": "0.1.0",
+  "access": "public",
+  "description": "A simple library to parse FormData objects into plain JavaScript objects.",
   "type": "module",
   "devDependencies": {
     "@types/bun": "latest"
